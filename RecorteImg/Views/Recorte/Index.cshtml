@@ -1,0 +1,14 @@
+﻿<html>
+<head>
+
+</head>
+<body>
+
+    @using (Html.BeginForm("Index", "Recorte", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <input type="file" name="file" />
+        <input type="submit" value="OK" />
+    }
+
+</body>
+</html>
